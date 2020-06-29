@@ -83,5 +83,5 @@ print '>'
 # Prints the updated board
 # Ask for the move of player 2
 # Repeat the process
-# Do it until someone wins or the board is full (draw situation)
+# Do it until someone wins or the board is full which means a draw situation
 # Print the result
