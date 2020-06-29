@@ -1,4 +1,4 @@
-# Ruby Custom Enumerable Methods
+# Tic Tac Toe Game
   
 [![View Code](https://img.shields.io/badge/View%20-Code-green)]()
 [![Github Issues](https://img.shields.io/badge/GitHub-Issues-orange)]()
