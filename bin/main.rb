@@ -1,5 +1,4 @@
 #!/usr/bin/env ruby
-
 def board_size(factor)
   order = factor**2
   ar = (1..order).map { |i| i }
