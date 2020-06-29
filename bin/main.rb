@@ -81,4 +81,14 @@ print ">"
 player1_move = gets.chomp.strip
 board_size(order)
 
+# Checks if it is a valid number, gives an error if not, loop again
+# Substitute the number in the selected position for the corresponding mark
+# Prints the updated board
+# Ask for the move of player 2
+# Repeat the process
+# Do it until someone wins or the board is full
+# Print the result
+
+
+
 
