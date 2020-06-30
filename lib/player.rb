@@ -9,12 +9,11 @@ class Player
   end
 
   def move
-    print "> "
-    input = gets.chomp.strip
+    print '> '
+    gets.chomp.strip
   end
 
   def increment_score
     @score += 1
   end
 end
-

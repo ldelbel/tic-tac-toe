@@ -53,7 +53,6 @@ class Board
   end
 
   def column_check?(marker)
-
     (0...@factor).any? do |column|
       @current_board.all? do |row|
         row[column] == marker
@@ -101,6 +100,3 @@ class Board
     move
   end
 end
-
-
-
