@@ -46,7 +46,13 @@ An early variation of tic-tac-toe was played in the Roman Empire, around the fir
 - run npm install to install the dependencies for the project.
 - [Check this link to install Ruby](https://www.ruby-lang.org/en/documentation/installation/#package-management-systems)
 
-## ✒️  Author <a name = "author"></a>
+## ✒️  Authors <a name = "author"></a>
+
+👤 **Temesghen Tekeste**
+
+- Github: [@temesghentekeste](https://github.com/temesghentekeste)
+- Twitter: [@temesghentekes1](https://twitter.com/temesghentekes1)
+- Linkedin: [temsghen-tekeste-bahta-8b5243193](https://www.linkedin.com/in/temesghen-tekeste-bahta-8b5243193/)
 
 👤 **Lucas Delbel**
 
@@ -54,11 +60,7 @@ An early variation of tic-tac-toe was played in the Roman Empire, around the fir
 - Twitter: [@delbel_lucas](https://twitter.com/delbel_lucas)
 - Linkedin: [lucasdelbel](https://www.linkedin.com/in/lucasdelbel/)
 
-👤 **Temesghen Tekeste**
 
-- Github: [@temesghentekeste](https://github.com/temesghentekeste)
-- Twitter: [@temesghentekes1](https://twitter.com/temesghentekes1)
-- Linkedin: [temsghen-tekeste-bahta-8b5243193](https://www.linkedin.com/in/temesghen-tekeste-bahta-8b5243193/)
 
 ## 🤝 Contributing
 
