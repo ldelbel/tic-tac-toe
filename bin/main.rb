@@ -52,6 +52,7 @@ another_player = Player.new(@another_player_name, @another_player_mark)
 loop do
   prompt = "#{@current_player_name}, enter game order"
   prompt += "\nAvailable order are 3 to 5 inclusive"
+  prompt += "\n Enter 3 for a 3x3 game level.\n Enter 4 for a 4x4 game level. \n Enter 5 for a 5x5 game level"
   @order = get_input(prompt).chomp.to_i
 
   if @order.negative? || @order > 5
