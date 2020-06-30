@@ -6,6 +6,7 @@
 
 ## Content
 
+<a text-align="center" href="#instructions">Instructions</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a text-align="center" href="#about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#method">Methods</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#ins">Installing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -13,8 +14,14 @@
 <a href="#ldl">Live Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#author">Author</a>
 
-## About <a name = "about"></a>
+## Instructions <a name = "instructions"></a>
 
+- [ ] The game is played on a grid that's 3 to 5 squares by 3 to 5 squares.
+- [ ] You select a mark (X or O), your friend gets the other option. Players take turns putting their marks in empty squares.
+- [ ] The first player to get 3 to 5 of her marks in a row (up, down, across, or diagonally) is the winner.
+- [ ] When all 9 to 25 squares are full, the game is over.
+
+## About <a name = "about"></a>
 
 ## 🔧 Built with<a name = "with"></a>
 
