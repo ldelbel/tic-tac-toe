@@ -2,6 +2,7 @@
 require_relative '../lib/player'
 require_relative '../lib/game'
 
+
 puts 'Welcome to Tic Tac Toe'
 
 def get_input(prompt)
@@ -61,6 +62,16 @@ loop do
   break
 end
 # game's board inteaction starts here
-game = Game.new([current_player, another_player], @order)
-puts 'Game starting ....'
-game.play
+loop do 
+  game = Game.new([current_player, another_player], @order)
+  puts 'Game starting ....'
+  game.play
+  puts "Want to play another round?"
+  puts "Type 'yes' to continue"
+  print "> "
+  ans = gets.chomp.strip
+  case ans.upcase
+  when 'YES'; next
+  else break
+  end
+end
