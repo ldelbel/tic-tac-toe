@@ -8,7 +8,6 @@
 
 <a text-align="center" href="#instructions">Instructions</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a text-align="center" href="#about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#method">Methods</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#ins">Installing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#with">Built with</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#ldl">Live Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -40,10 +39,12 @@ An early variation of tic-tac-toe was played in the Roman Empire, around the fir
 
 - Fork the repo to your remote repository.
 - Clone or download the repository to a local directory on your computer.
+- Go to **.tic-tac-toe/bin/** directory and type **ruby main.rb** on the console
 
 ## 🛠 Installing <a name = "ins"></a>
 
 - run npm install to install the dependencies for the project.
+- [Check this link to install Ruby](https://www.ruby-lang.org/en/documentation/installation/#package-management-systems)
 
 ## ✒️  Author <a name = "author"></a>
 
