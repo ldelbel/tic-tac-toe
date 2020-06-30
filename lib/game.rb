@@ -28,6 +28,7 @@ class Game
     else
       display_result
     end
+    display_score(current_player, another_player)
   end
 
   def player_turn(current_player)
@@ -53,5 +54,11 @@ class Game
       puts "#{current_player.name} won!"
       puts "Score: #{result}"
     end
+  end
+
+  def display_score(current_player, another_player)
+    puts 'Scoreboard: '
+    puts " #{current_player.name} score: #{current_player.score}"
+    puts " #{another_player.name} score: #{another_player.score}"
   end
 end
