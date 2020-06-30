@@ -12,11 +12,6 @@ class Board
       j = 0
       while j < @current_board.size
         @current_board[i][j] = k
-        # if k <= 9
-        #   print(" #{@current_board[i][j]} | ")
-        # else
-        #   print("#{@current_board[i][j]} | ")
-        # end
         k += 1
         j += 1
       end
