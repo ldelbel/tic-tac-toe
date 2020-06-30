@@ -15,10 +15,10 @@
 
 ## Instructions <a name = "instructions"></a>
 
-- [ ] The game is played on a grid that's 3 to 5 squares by 3 to 5 squares.
-- [ ] You select a mark (X or O), your friend gets the other option. Players take turns putting their marks in empty squares.
-- [ ] The first player to get 3 to 5 of her marks in a row (up, down, across, or diagonally) is the winner.
-- [ ] When all 9 to 25 squares are full, the game is over.
+- [ ] The game is played on a grid of different levels: 3X3, 4X4 or 5X5 square game levels.
+- [ ] A player selects a mark (X or O), your friend gets the other option. Players take turns putting their marks in empty squares.
+- [ ] The winner is the first player to place 3 of his/her marker in a 3 by 3 game level OR to place 4 of his/her marker in a 4 by 4 game level OR 5 of his/her marker in 5 by 5 game level.
+- [ ] When all 9 squares in 3 by 3 grid, or all 16 squares in 4 by 4 grid, or all 25 squares in 5 by 5 grid are full, the game is over.
 
 ## About <a name = "about"></a>
 
