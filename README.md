@@ -34,7 +34,7 @@ An early variation of tic-tac-toe was played in the Roman Empire, around the fir
 
 ## 🔴 Live Demo <a name = "ldl"></a>
 
-[![Run on Repl.it](https://repl.it/badge/github/ElijahAyandokun/MyEnumerable-Methods)](https://repl.it/@ElijahAyandokun/MyEnumerable-Methods)
+[![Run on Repl.it](https://repl.it/badge/github/temesghen/tic-tac-toe-1#.replit)](https://repl.it/@temesghen/tic-tac-toe-1#.replit)
 
 ## 🔨 Setup
 
