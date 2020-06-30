@@ -5,7 +5,7 @@ require_relative '../lib/game'
 puts 'Welcome to Tic Tac Toe'
 
 def get_input(prompt)
-  print prompt
+  puts prompt
   print "> "
   name = gets.chomp.strip
 end
@@ -14,7 +14,7 @@ def get_name(prompt)
   name = ""
   loop do
     name =  get_input(prompt)
-    if name.length <= 0 || name.to_i > 0
+    if name.length <= 0 || name.to_i > 0 || name == '0'
       puts "Invalid name, try again"
       next
     end
@@ -38,7 +38,14 @@ end
 
 
 current_player = Player.new(@current_player_name, @mark)
-@another_player_name = get_name("Player 2, enter your name")
+loop do
+  @another_player_name = get_name("Player 2, enter your name")
+  if @another_player_name.upcase == @current_player_name.upcase
+    puts "Invalid name. Name should not be the same"
+    next
+  end
+  break
+end
 another_player = Player.new(@another_player_name, @another_player_mark)
 
 #starting the game

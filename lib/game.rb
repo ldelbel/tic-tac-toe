@@ -33,10 +33,9 @@ class Game
   def player_turn(current_player)
     loop do
       @board.print_board
-      p "#{current_player.name}, pick a move"
+      puts "#{current_player.name}, pick a move"
       move = current_player.move.to_i
       place = @board.move_empty?(move)
-      p place
       if move < 0 || move > @gam_order ** 2 || place.is_a?(Integer)
         puts "Invalid move"
         next 

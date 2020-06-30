@@ -9,7 +9,7 @@ class Player
   end
 
   def move
-    puts "> "
+    print "> "
     input = gets.chomp.strip
   end
 
