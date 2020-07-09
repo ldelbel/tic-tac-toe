@@ -1,5 +1,5 @@
 # Tic Tac Toe Game
-  
+
 [![View Code](https://img.shields.io/badge/View%20-Code-green)]()
 [![Github Issues](https://img.shields.io/badge/GitHub-Issues-orange)]()
 [![GitHub Pull Requests](https://img.shields.io/badge/GitHub-Pull%20Requests-blue)]()
@@ -60,6 +60,11 @@ An early variation of tic-tac-toe was played in the Roman Empire, around the fir
 - Twitter: [@delbel_lucas](https://twitter.com/delbel_lucas)
 - Linkedin: [lucasdelbel](https://www.linkedin.com/in/lucasdelbel/)
 
+👤 **Mark James Kiptubei**
+
+- [Github](https://github.com/kiptubei)
+- [Linkedin](https://www.linkedin.com/in/mark-james-k-aa875829/)
+
 
 
 ## 🤝 Contributing
@@ -77,4 +82,3 @@ Give a ⭐️ if you like this project!
 
 - Wikipedia: [@wikipedia](https://en.wikipedia.org/wiki/Tic-tac-toe)
 - Microverse: [@microverse](https://www.microverse.org/)
-
