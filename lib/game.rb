@@ -12,7 +12,7 @@ class Game
     current_player = @players[0]
     another_player = @players[1]
     game_over = false
-
+    puts !game_over
     while @available_moves.positive? || !game_over
       player_turn(current_player)
       @available_moves -= 1
@@ -62,3 +62,5 @@ class Game
     puts " #{another_player.name} score: #{another_player.score}"
   end
 end
+
+# puts Game.new([Player.new('Luc','X'), Player.new('Eze','O')], 3).play
