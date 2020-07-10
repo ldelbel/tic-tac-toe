@@ -5,7 +5,9 @@ require './lib/board'
 describe Board do
   subject { Board.new(order) }
 
-  context '#win_combinations?' do
+  # board = Board.new(6)
+
+  context '#row_check?' do
     let(:order) { 3 }
 
     it 'returns true if there is a row win combination' do
@@ -18,7 +20,10 @@ describe Board do
 
       expect(subject.row_check?('X')).to eql(true)
     end
+  end
 
+  context '#column_check?' do
+    let(:order) { 3 }
     it 'returns true if there is a column win combination' do
       place = subject.move_empty?(1)
       subject.place_move(place, 'X')
@@ -29,7 +34,10 @@ describe Board do
 
       expect(subject.column_check?('X')).to eql(true)
     end
+  end
 
+  context '#diagonal_checkI?' do
+    let(:order) { 3 }
     it 'returns true if there is a diagonal win combination: diagonal I' do
       place = subject.move_empty?(1)
       subject.place_move(place, 'X')
@@ -40,7 +48,10 @@ describe Board do
 
       expect(subject.diagonal_check?('X')).to eql(true)
     end
+  end
 
+  context '#diagonal_checkII?' do
+    let(:order) { 3 }
     it 'returns true if there is a diagonal win combination: diagonal II' do
       place = subject.move_empty?(3)
       subject.place_move(place, 'X')
