@@ -15,7 +15,10 @@ class Game
     game_over = false
 
     loop do
-      player_turn(current_player)
+      player_turn(current_player) unless @available_moves == 0
+
+      # player_turn(current_player) unless @board.winner?(current_player.mark) 
+
       @available_moves -= 1
       if (game_over_with_winner = @board.winner?(current_player.mark))
         return 'There is a winner'
