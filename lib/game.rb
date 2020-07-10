@@ -1,4 +1,5 @@
 require_relative '../lib/board'
+require_relative './player'
 class Game
   def initialize(players, order)
     @gam_order = order
@@ -12,14 +13,17 @@ class Game
     current_player = @players[0]
     another_player = @players[1]
     game_over = false
-    puts !game_over
-    while @available_moves.positive? || !game_over
+
+    loop do
       player_turn(current_player)
       @available_moves -= 1
-      break if (game_over_with_winner = @board.winner?(current_player.mark))
-      break if @available_moves < 1
-
+      if (game_over_with_winner = @board.winner?(current_player.mark))
+        return 'There is a winner'
+      elsif @available_moves < 1
+        return 'It\'s a draw!'
+      else
       current_player, another_player = another_player, current_player
+      end
     end
 
     @board.print_board
