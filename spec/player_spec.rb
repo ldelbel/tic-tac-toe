@@ -1,7 +1,7 @@
 require './lib/player.rb'
 
 describe Player do
-  let(:player) {Player.new('Ezekiel','X')}
+  let(:player) { Player.new('Ezekiel', 'X') }
   describe '#move' do
     it 'returns the value of the prompt input as a string' do
       allow(player).to receive(:gets).and_return('2')

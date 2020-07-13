@@ -97,6 +97,3 @@ class Board
     move
   end
 end
-
-
-

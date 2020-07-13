@@ -9,17 +9,16 @@ class Game
     @available_moves = order**2
   end
 
-  public
-
   def play
     current_player = @players[0]
     another_player = @players[1]
     game_over = false
 
     while @available_moves.positive? || !game_over
-      player_turn(current_player) 
+      player_turn(current_player)
       break if (game_over_with_winner = @board.winner?(current_player.mark))
       break if @available_moves < 1
+
       @available_moves -= 1
       current_player, another_player = another_player, current_player
     end
@@ -33,7 +32,7 @@ class Game
     display_score(current_player, another_player)
   end
 
-  private 
+  private
 
   def player_turn(current_player)
     loop do
@@ -66,6 +65,3 @@ class Game
     puts " #{another_player.name} score: #{another_player.score}"
   end
 end
-
-
-
