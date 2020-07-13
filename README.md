@@ -9,7 +9,9 @@
 <a text-align="center" href="#about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#method">Methods</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#ins">Installing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#testing">Testing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#with">Built with</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#tested">Tested with</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#ldl">Live Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#author">Author</a>
 
@@ -20,6 +22,9 @@
 
 - Ruby
 
+## 🔧 Tested with<a name = "tested"></a>
+  
+- RSpec 3.5.4
 
 ## 🔴 Live Demo <a name = "ldl"></a>
 
@@ -33,9 +38,16 @@
 
 ## 🛠 Installing <a name = "ins"></a>
 
-- run npm install to install the dependencies for the project.
+- run npm install to install the dependencies for the project
+- run bundle init to create a Gemfile
+- add rspec gem in your Gemfile
+- run bundle install to install the gems
 
-## ✒️  Author <a name = "author"></a>
+## 🛠 Testing <a name = "testing"></a>
+
+- run bundle exec rspec
+
+## ✒️  Authors <a name = "author"></a>
 
 👤 **Lucas Delbel**
 
@@ -49,6 +61,13 @@
 - Twitter: [@temesghentekes1](https://twitter.com/temesghentekes1)
 - Linkedin: [temsghen-tekeste-bahta-8b5243193](https://www.linkedin.com/in/temesghen-tekeste-bahta-8b5243193/)
 
+👤 **Mworekwa Ezekiel** (RSpec testing)
+
+- Github: [@vanheaven-ui](https://github.com/vanheaven-ui)
+- Twitter: [@MworekwaE](https://twitter.com/MworekwaE)
+- Linkedin: [@linkedin](https://www.linkedin.com/in/vanheaven/)
+- Email: [ezekiel](mailto:vanheaven6@gmail.com)
+
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
@@ -61,3 +80,6 @@ Feel free to check the [issues page]().
 Give a ⭐️ if you like this project!
 
 ## :clap: Acknowledgements
+
+[BetterSpecs for RSpec good practices](http://www.betterspecs.org/br/#contexts)<br>
+[RSpec Documentation Repo](https://github.com/rspec/rspec)
