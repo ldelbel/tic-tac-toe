@@ -1,6 +1,4 @@
 require './lib/board'
-require './lib/game'
-require './lib/player'
 
   describe Board do
     let(:board) { Board.new(3) }
@@ -70,26 +68,6 @@ require './lib/player'
       end
     end
   end
+  
 
-  describe Game do
-    let(:board) { Board.new(3) }
-    let(:player1) { Player.new('Lucas', 'X') }
-    let(:player2) { Player.new('Ezekiel', 'O') }
-    let(:game) { Game.new([player1, player2], 3) }
-    describe '#play' do
-      context 'when there is a winner' do
-        it 'returns There is a winner' do
-          allow(board).to receive(:winner?).and_return(true)
-          expect(game.play).to eql('There is a winner')
-        end
-      end
-
-      context 'When there is a draw' do
-        it "returns It's a draw" do
-          game.instance_variable_set(:@available_moves, 0)
-          expect(game.play).to eql('It\'s a draw!')
-        end
-      end
-    end
-  end
 

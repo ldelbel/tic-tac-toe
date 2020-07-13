@@ -6,7 +6,7 @@ class Player
   def initialize(name, mark)
     @name = name
     @mark = mark
-    @score = 1
+    @score = 0
   end
 
   def move
@@ -19,6 +19,3 @@ class Player
   end
 end
 
-player = Player.new('Luc', 'X')
-
-p player.increment_score

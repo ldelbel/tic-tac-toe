@@ -9,24 +9,19 @@ class Game
     @available_moves = order**2
   end
 
+  public
+
   def play
     current_player = @players[0]
     another_player = @players[1]
     game_over = false
 
-    loop do
-      player_turn(current_player) unless @available_moves == 0
-
-      # player_turn(current_player) unless @board.winner?(current_player.mark) 
-
+    while @available_moves.positive? || !game_over
+      player_turn(current_player) 
+      break if (game_over_with_winner = @board.winner?(current_player.mark))
+      break if @available_moves < 1
       @available_moves -= 1
-      if (game_over_with_winner = @board.winner?(current_player.mark))
-        return 'There is a winner'
-      elsif @available_moves < 1
-        return 'It\'s a draw!'
-      else
       current_player, another_player = another_player, current_player
-      end
     end
 
     @board.print_board
@@ -37,6 +32,8 @@ class Game
     end
     display_score(current_player, another_player)
   end
+
+  private 
 
   def player_turn(current_player)
     loop do
@@ -70,4 +67,5 @@ class Game
   end
 end
 
-# puts Game.new([Player.new('Luc','X'), Player.new('Eze','O')], 3).play
+
+
