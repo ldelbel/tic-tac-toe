@@ -1,4 +1,5 @@
 class Board
+  attr_accessor :current_board
   def initialize(factor)
     @factor = factor
     @current_board = Array.new(@factor) { Array.new(@factor) }
@@ -73,8 +74,9 @@ class Board
     row_check?(mark) || column_check?(mark) || diagonal_check?(mark)
   end
 
-  def place_move(move, mark)
-    @current_board[move.first][move.last] = mark
+  def place_move(place, mark)
+    @current_board[place.first][place.last] = mark
+    @current_board
   end
 
   def move_empty?(move)
