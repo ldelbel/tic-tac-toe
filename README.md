@@ -28,7 +28,7 @@
 
 ## 🔴 Live Demo <a name = "ldl"></a>
 
-[![Run on Repl.it]()
+[Run on Repl.it](https://repl.it/@ldelbel/Tic-Tac-Toe-Game#bin/main.rb)
 
 
 ## 🔨 Setup
